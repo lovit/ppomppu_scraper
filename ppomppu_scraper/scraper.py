@@ -1,4 +1,6 @@
 import time
+from .utils import get_soup
+from .parser import parse_page
 
 
 def yield_page(id_, divpage, base, max_page=3, sleep=1.0):
