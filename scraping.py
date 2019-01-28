@@ -43,7 +43,7 @@ def main():
         path = '{}/{}'.format(directory, idx)
         for i, page in enumerate(yield_parsed_page(idx, divpage, max_page, sleep, debug)):
             buffer.append(page)
-            if i % 3 == 0 and i > 0:
+            if i % 20 == 0 and i > 0:
                 write(path, buffer)
                 buffer = []
         if buffer:
