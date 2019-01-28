@@ -16,4 +16,4 @@ def yield_parsed_page(id_, divpage, max_page=3, sleep=1.0, debug=False):
             information = parse_page(url)
             yield information
             time.sleep(sleep)
-        print('scrap from {} / {} pages'.format(page, max_page))
+        print('scrap {} from {} / {} pages'.format(id_, page, max_page))
