@@ -10,7 +10,7 @@ def main():
     parser.add_argument('--directory', type=str, default='./output/', help='Output directory')
     parser.add_argument('--sleep', type=float, default=1.5, help='Sleep time for each submission (post)')
     parser.add_argument('--parameters', type=str, default='phone3 12 3 mini 9 3 camera 14 3', help='id divpage max_page')
-    #parser.add_argument('--parameters', type=str, default='phone3 12 1800 mini 9 1300 camera 14 2000', help='id divpage max_page')
+    # parser.add_argument('--parameters', type=str, default='camera 14 2000 soccer 28 3747 bitcoin 19 2900 baseball 123 18000', help='id divpage max_page')
     parser.add_argument('--debug', dest='debug', action='store_true')
 
     args = parser.parse_args()
